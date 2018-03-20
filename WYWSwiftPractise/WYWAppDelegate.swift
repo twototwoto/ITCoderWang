@@ -15,9 +15,9 @@ class WYWAppDelegate: UIResponder,UIApplicationDelegate {
     
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
+        WYWWeakReferenceTest().test()
         // Override point for customization after application launch.
-        self.setupWindow()
+//        self.setupWindow()
         
         return true
     }

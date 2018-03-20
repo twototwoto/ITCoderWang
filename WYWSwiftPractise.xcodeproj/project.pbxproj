@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D866EFB2061600A00D00433 /* WYWApartment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D866EF82061600A00D00433 /* WYWApartment.swift */; };
+		4D866EFC2061600B00D00433 /* WYWPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D866EF92061600A00D00433 /* WYWPerson.swift */; };
+		4D866EFD2061600B00D00433 /* WYWWeakReferenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D866EFA2061600A00D00433 /* WYWWeakReferenceTest.swift */; };
 		4D907E762050E46600B65124 /* WYWAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D907E752050E46600B65124 /* WYWAppDelegate.swift */; };
 		4D9ADED12052D07300A79730 /* WYWBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9ADED02052D07300A79730 /* WYWBaseViewController.swift */; };
 		4D9ADED42052D0F500A79730 /* WYWHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9ADED32052D0F500A79730 /* WYWHomeViewController.swift */; };
@@ -44,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D866EF82061600A00D00433 /* WYWApartment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYWApartment.swift; sourceTree = "<group>"; };
+		4D866EF92061600A00D00433 /* WYWPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYWPerson.swift; sourceTree = "<group>"; };
+		4D866EFA2061600A00D00433 /* WYWWeakReferenceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYWWeakReferenceTest.swift; sourceTree = "<group>"; };
 		4D907E752050E46600B65124 /* WYWAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYWAppDelegate.swift; sourceTree = "<group>"; };
 		4D9ADED02052D07300A79730 /* WYWBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYWBaseViewController.swift; sourceTree = "<group>"; };
 		4D9ADED32052D0F500A79730 /* WYWHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYWHomeViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +100,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D866EF52061600A00D00433 /* WWPractiseTest */ = {
+			isa = PBXGroup;
+			children = (
+				4D866EF62061600A00D00433 /* ARC */,
+			);
+			path = WWPractiseTest;
+			sourceTree = "<group>";
+		};
+		4D866EF62061600A00D00433 /* ARC */ = {
+			isa = PBXGroup;
+			children = (
+				4D866EF72061600A00D00433 /* weakReference */,
+			);
+			path = ARC;
+			sourceTree = "<group>";
+		};
+		4D866EF72061600A00D00433 /* weakReference */ = {
+			isa = PBXGroup;
+			children = (
+				4D866EF82061600A00D00433 /* WYWApartment.swift */,
+				4D866EF92061600A00D00433 /* WYWPerson.swift */,
+				4D866EFA2061600A00D00433 /* WYWWeakReferenceTest.swift */,
+			);
+			path = weakReference;
+			sourceTree = "<group>";
+		};
 		4D9ADEAE2052CE8900A79730 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -416,6 +448,7 @@
 		4DE8BD50202990ED009EC4D0 /* WYWSwiftPractise */ = {
 			isa = PBXGroup;
 			children = (
+				4D866EF52061600A00D00433 /* WWPractiseTest */,
 				4D9ADEAE2052CE8900A79730 /* Classes */,
 				4D9ADECD2052CF8800A79730 /* ThirdLib */,
 				4D9ADECC2052CF7B00A79730 /* Common */,
@@ -590,8 +623,11 @@
 				4D9ADED12052D07300A79730 /* WYWBaseViewController.swift in Sources */,
 				4DE8BD5A202990ED009EC4D0 /* WYWSwiftPractise.xcdatamodeld in Sources */,
 				4D9ADEDA2052D12100A79730 /* WYWDiscoverViewController.swift in Sources */,
+				4D866EFC2061600B00D00433 /* WYWPerson.swift in Sources */,
 				4D9ADEDC2052D13000A79730 /* WYWMineViewController.swift in Sources */,
+				4D866EFB2061600A00D00433 /* WYWApartment.swift in Sources */,
 				4DE8BD54202990ED009EC4D0 /* ViewController.swift in Sources */,
+				4D866EFD2061600B00D00433 /* WYWWeakReferenceTest.swift in Sources */,
 				4D9ADED62052D10500A79730 /* WYWMessageViewController.swift in Sources */,
 				4D9ADEE22052D1DE00A79730 /* WYWTabBarController.swift in Sources */,
 				4D9ADED82052D11200A79730 /* WYWLiveViewController.swift in Sources */,
